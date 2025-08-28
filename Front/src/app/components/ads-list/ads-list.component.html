@@ -1,0 +1,17 @@
+<div style="display:flex; gap:8px; align-items:center; margin:8px 0;">
+  <input [(ngModel)]="q" placeholder="חיפוש..." />
+  
+  <input type="number" [(ngModel)]="radiusKm" placeholder="רדיוס (ק''מ)" style="width:120px" />
+  <button (click)="useLocation()">לפי מיקומי</button>
+  <button (click)="load()">רענון</button>
+  <button (click)="create()">מודעה חדשה</button>
+</div>
+
+<div *ngIf="ads.length === 0">אין מודעות.</div>
+<div *ngFor="let ad of ads" style="background:white;padding:12px;margin:8px 0;border-radius:8px;box-shadow:0 1px 4px rgba(0,0,0,0.1)">
+  <h3>{{ad.title}}</h3>
+  <p>{{ad.description}}</p>
+  <div style="margin-top:8px;">
+    <button (click)="edit(ad)" *ngIf="allowEdit(ad!.createdBy)">עריכה</button>
+  </div>
+</div>

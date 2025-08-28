@@ -1,0 +1,8 @@
+<google-map height="400px" width="100%"
+            [center]="center" [zoom]="12"
+            (mapClick)="onMapClick($event)">
+</google-map>
+
+<div *ngIf="selected">
+  <p>נבחר: {{selected?.lat}}, {{selected?.lng}}</p>
+</div>

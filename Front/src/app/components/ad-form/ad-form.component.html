@@ -1,0 +1,22 @@
+<h2>מודעה חדשה</h2>
+
+<form (ngSubmit)="save()">
+  <label>כותרת:</label>
+  <input [(ngModel)]="ad.title" name="title" required>
+
+  <label>תיאור:</label>
+  <textarea [(ngModel)]="ad.description" name="description"></textarea>
+
+  <h3>בחר מיקום על המפה</h3>
+  <google-map height="400px" width="100%"
+              [center]="center" [zoom]="12"
+              (mapClick)="onMapClick($event)">
+    <map-marker *ngIf="marker" [position]="marker"></map-marker>
+  </google-map>
+
+  <div *ngIf="marker">
+    <p>נבחר: {{marker.lat}}, {{marker.lng}}</p>
+  </div>
+
+  <button type="submit">שמור מודעה</button>
+</form>

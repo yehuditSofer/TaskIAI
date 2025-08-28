@@ -1,0 +1,10 @@
+{
+"SpaProxyServer": {
+"ServerUrl": "https://localhost:52764",
+"RedirectUrl": "",
+"LaunchCommand": "npm start",
+"WorkingDirectory": "C:\\Users\\Yehudit\\Desktop\\TaskIAI\\API\\..\\Front",
+"MaxTimeoutInSeconds": "120",
+"KeepRunning": "false"
+}
+}

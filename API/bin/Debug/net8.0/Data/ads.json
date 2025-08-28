@@ -1,0 +1,14 @@
+[
+  {
+    "Id": "1df43e23-d517-47ca-a500-f2e77a1a7357",
+    "Title": "דירה להשכרה",
+    "Description": "3 חדרים במרכז תל אביב",
+    "CreatedBy": "123456789",
+    "Location": {
+      "Lat": 32.0853,
+      "Lng": 34.7818
+    },
+    "CreatedAt": "2025-08-26T18:00:00Z",
+    "UpdatedAt": null
+  }
+]

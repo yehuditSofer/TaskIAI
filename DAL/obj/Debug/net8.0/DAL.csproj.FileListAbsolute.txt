@@ -1,0 +1,15 @@
+C:\Users\Yehudit\Desktop\TaskIAI\DAL\bin\Debug\net8.0\DAL.deps.json
+C:\Users\Yehudit\Desktop\TaskIAI\DAL\bin\Debug\net8.0\DAL.dll
+C:\Users\Yehudit\Desktop\TaskIAI\DAL\bin\Debug\net8.0\DAL.pdb
+C:\Users\Yehudit\Desktop\TaskIAI\DAL\bin\Debug\net8.0\Common.dll
+C:\Users\Yehudit\Desktop\TaskIAI\DAL\bin\Debug\net8.0\Common.pdb
+C:\Users\Yehudit\Desktop\TaskIAI\DAL\obj\Debug\net8.0\DAL.csproj.AssemblyReference.cache
+C:\Users\Yehudit\Desktop\TaskIAI\DAL\obj\Debug\net8.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Yehudit\Desktop\TaskIAI\DAL\obj\Debug\net8.0\DAL.AssemblyInfoInputs.cache
+C:\Users\Yehudit\Desktop\TaskIAI\DAL\obj\Debug\net8.0\DAL.AssemblyInfo.cs
+C:\Users\Yehudit\Desktop\TaskIAI\DAL\obj\Debug\net8.0\DAL.csproj.CoreCompileInputs.cache
+C:\Users\Yehudit\Desktop\TaskIAI\DAL\obj\Debug\net8.0\DAL.csproj.Up2Date
+C:\Users\Yehudit\Desktop\TaskIAI\DAL\obj\Debug\net8.0\DAL.dll
+C:\Users\Yehudit\Desktop\TaskIAI\DAL\obj\Debug\net8.0\refint\DAL.dll
+C:\Users\Yehudit\Desktop\TaskIAI\DAL\obj\Debug\net8.0\DAL.pdb
+C:\Users\Yehudit\Desktop\TaskIAI\DAL\obj\Debug\net8.0\ref\DAL.dll
