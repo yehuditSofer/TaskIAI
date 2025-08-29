@@ -1,7 +1,174 @@
 /* You can add global styles to this file, and also import other style files */
-body {
+/*body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
   padding: 16px;
   background: #fafafa;
+}*/
+/* רקע כללי */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f5f6fa;
+  margin: 0;
+  padding: 0;
+  color: #333;
 }
+
+/* כותרת ראשית */
+h1, h2 {
+  text-align: center;
+  margin: 20px 0;
+  color: #222;
+}
+
+/* אזור חיפוש וכפתורים */
+.toolbar {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 15px 0;
+  flex-wrap: wrap;
+}
+
+input, textarea {
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  min-width: 160px;
+  font-size: 14px;
+}
+
+button {
+  padding: 8px 14px;
+  background: #4a90e2;
+  border: none;
+  border-radius: 6px;
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.2s ease-in-out;
+}
+
+  button:hover {
+    background: #357abd;
+  }
+
+/* כרטיסי מודעות */
+.ad-card {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+  padding: 20px;
+  margin: 15px auto;
+  max-width: 800px;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s;
+}
+
+  .ad-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+  }
+
+  .ad-card h3 {
+    margin: 0 0 10px;
+    font-size: 20px;
+    color: #333;
+  }
+
+  .ad-card p {
+    margin: 5px 0;
+    color: #555;
+  }
+
+/* כפתור יציאה */
+.logout-btn {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  background: #e74c3c;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 6px;
+  color: #fff;
+  cursor: pointer;
+}
+
+  .logout-btn:hover {
+    background: #c0392b;
+  }
+
+/* מראה כללי */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f8fa;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+/* כותרות */
+h2, h3 {
+  margin-top: 20px;
+  color: #222;
+}
+
+/* הטופס */
+form {
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  text-align: right; /* כדי שהטקסטים יישרו בעברית */
+}
+
+.ads-list-container {
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  text-align: right; /* כדי שהטקסטים יישרו בעברית */
+}
+/* שדות קלט */
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0 16px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+textarea {
+  min-height: 80px;
+  resize: vertical;
+}
+
+/* כפתור */
+button {
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s;
+  margin: 5px;
+}
+
+  button:hover {
+    background-color: #2563eb;
+  }
+
+/* מפה */
+google-map {
+  border-radius: 12px;
+  overflow: hidden;
+  margin-top: 15px;
+}
+

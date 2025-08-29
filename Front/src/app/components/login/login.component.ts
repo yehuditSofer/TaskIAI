@@ -21,6 +21,7 @@ export class LoginComponent {
           photoUrl: user!.photoUrl,
           idToken: user!.idToken
         });
+      localStorage.setItem('google_id_token', user!.idToken); // 🔑 כאן נשמר
         this.name = user?.name ?? '';
         this.state.setEmail(this.email);
         this.emailChange.emit(this.email);

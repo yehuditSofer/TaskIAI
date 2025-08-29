@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { HttpClient, HttpHeaders, HttpParams } from '@angular/common/http';
+import { HttpClient, HttpParams } from '@angular/common/http';
 import { Observable } from 'rxjs';
 
 export interface Location { lat: number; lng: number; }
@@ -19,12 +19,6 @@ export class AdsService {
 
   constructor(private http: HttpClient) { }
 
-  private headers(email?: string) {
-    const h: any = {};
-    if (email) h['X-User-Email'] = email;
-    return new HttpHeaders(h);
-  }
-
   // --- GET list עם סינון ---
   list(q?: string, lat?: number, lng?: number, radiusKm?: number): Observable<Ad[]> {
     let params = new HttpParams();
@@ -41,17 +35,17 @@ export class AdsService {
   }
 
   // --- POST (יצירה) ---
-  create(ad: Ad, email: string): Observable<Ad> {
-    return this.http.post<Ad>(this.base, ad, { headers: this.headers(email) });
+  create(ad: Ad): Observable<Ad> {
+    return this.http.post<Ad>(this.base, ad);
   }
 
   // --- PUT (עדכון) ---
-  update(id: string, ad: Ad, email: string): Observable<Ad> {
-    return this.http.put<Ad>(`${this.base}/${id}`, ad, { headers: this.headers(email) });
+  update(id: string, ad: Ad): Observable<Ad> {
+    return this.http.put<Ad>(`${this.base}/${id}`, ad);
   }
 
   // --- DELETE ---
-  remove(id: string, email: string): Observable<void> {
-    return this.http.delete<void>(`${this.base}/${id}`, { headers: this.headers(email) });
+  remove(id: string): Observable<void> {
+    return this.http.delete<void>(`${this.base}/${id}`);
   }
 }

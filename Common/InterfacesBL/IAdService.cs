@@ -7,5 +7,4 @@ public interface IAdService
     Task<Ad> CreateAsync(Ad ad, string currentUser);
     Task<Ad?> UpdateAsync(Guid id, Ad updated, string currentUser);
     Task<bool> DeleteAsync(Guid id, string currentUser);
-    Task<GoogleUser> ValidateGoogleToken(string idToken);
 }

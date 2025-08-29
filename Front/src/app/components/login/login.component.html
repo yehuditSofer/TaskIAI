@@ -3,6 +3,6 @@
     <asl-google-signin-button></asl-google-signin-button>
     <span class="tooltip-text">התחברות עם חשבון Google</span>
   </div>
-  <button (click)="signOut()" *ngIf="name">התנתקות</button>
+  <button class="logout-btn" (click)="signOut()" *ngIf="name">התנתקות</button>
   <span *ngIf="name">שלום {{name}}</span>
 </div>

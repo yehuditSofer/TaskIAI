@@ -33,6 +33,7 @@ public class JsonAdRepository : IAdRepository
     {
         using var stream = File.Create(_filePath);
         await JsonSerializer.SerializeAsync(stream, ads, _jsonOptions);
+        await stream.FlushAsync();
     }
 
     public async Task<IReadOnlyList<Ad>> GetAllAsync() => await ReadAllAsync();

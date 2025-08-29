@@ -3,7 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { RouterModule, Routes } from '@angular/router';
-import { GoogleMap, GoogleMapsModule } from '@angular/google-maps';
+import { GoogleMapsModule } from '@angular/google-maps';
 import { SocialLoginModule, SocialAuthServiceConfig, GoogleLoginProvider } from '@abacritt/angularx-social-login';
 import { AppComponent } from './app.component';
 import { AdsListComponent } from './components/ads-list/ads-list.component';
@@ -11,6 +11,7 @@ import { AdFormComponent } from './components/ad-form/ad-form.component';
 import { LoginComponent } from './components/login/login.component';
 import { environment } from '../environments/environment';
 import { MapPickerComponent } from './components/map-picker/map-picker.component';
+import { AuthInterceptor } from './services/auth.interceptor';
 
 const routes: Routes = [
   { path: '', component: AdsListComponent },
@@ -34,6 +35,11 @@ const routes: Routes = [
         ],
         onError: (err: any) => console.error(err)
       } as SocialAuthServiceConfig
+    },
+    {
+      provide: HTTP_INTERCEPTORS,
+      useClass: AuthInterceptor,
+      multi: true
     }
   ],
   bootstrap: [AppComponent]

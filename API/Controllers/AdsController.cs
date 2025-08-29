@@ -1,6 +1,7 @@
-using Microsoft.AspNetCore.Mvc;
 using Common.InterfacesBL;
 using Common.Models;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 
 namespace API;
 
@@ -26,41 +27,40 @@ public class AdsController : ControllerBase
         return Ok(ad);
     }
 
-    private string CurrentUserID()
-    {
-        return User?.Claims.FirstOrDefault(c => c.Type == "email")?.Value ?? string.Empty;
-    }
-
     [HttpPost]
+    [Authorize]
     public async Task<ActionResult<Ad>> Create([FromBody] Ad ad)
     {
         try
         {
-            var created = await _service.CreateAsync(ad, CurrentUserID());
+            var created = await _service.CreateAsync(ad, User.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier)!.Value);
             return CreatedAtAction(nameof(GetById), new { id = created.Id }, created);
         }
         catch (ArgumentException ex) { return BadRequest(ex.Message); }
     }
 
+    [Authorize]
     [HttpPut("{id:guid}")]
     public async Task<ActionResult<Ad>> Update(Guid id, [FromBody] Ad ad)
     {
         try
         {
-            var updated = await _service.UpdateAsync(id, ad, CurrentUserID());
-            if (updated is null) return NotFound();
-            return Ok(updated);
+            var updated = await _service.UpdateAsync(id, ad, User.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier)!.Value);
+            if (updated != null)
+                return Ok(updated);
+            return NotFound();
         }
         catch (UnauthorizedAccessException ex) { return Forbid(ex.Message); }
         catch (ArgumentException ex) { return BadRequest(ex.Message); }
     }
 
+    [Authorize]
     [HttpDelete("{id:guid}")]
     public async Task<IActionResult> Delete(Guid id)
     {
         try
         {
-            var ok = await _service.DeleteAsync(id, CurrentUserID());
+            var ok = await _service.DeleteAsync(id, User.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier)!.Value);
             if (!ok) return NotFound();
             return NoContent();
         }

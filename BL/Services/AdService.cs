@@ -71,20 +71,4 @@ public class AdService : IAdService
     }
     private static double ToRad(double v) => v * Math.PI / 180.0;
 
-
-    public async Task<GoogleUser> ValidateGoogleToken(string idToken)
-    {
-        var payload = await GoogleJsonWebSignature.ValidateAsync(idToken, new GoogleJsonWebSignature.ValidationSettings
-        {
-            Audience = new[] { "YOUR_GOOGLE_CLIENT_ID" } // ה-clientId שלך מהקונסולה של גוגל
-        });
-        return new GoogleUser
-        {
-            GoogleId = payload.Subject,   // מזהה ייחודי של המשתמש בגוגל
-            Email = payload.Email,
-            Name = payload.Name,
-            Picture = payload.Picture
-        };
-    }
-
 }

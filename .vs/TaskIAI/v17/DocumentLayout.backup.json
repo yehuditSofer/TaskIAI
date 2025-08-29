@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Yehudit\\Desktop\\TaskIAI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{015CF29F-99AD-F63F-AB77-31686A52BE26}|Front\\Front.esproj|c:\\users\\yehudit\\desktop\\taskiai\\front\\src\\app\\components\\ad-form\\ad-form.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{015CF29F-99AD-F63F-AB77-31686A52BE26}|Front\\Front.esproj|solutionrelative:front\\src\\app\\components\\ad-form\\ad-form.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+      "AbsoluteMoniker": "D:0:0:{CDC0474F-3F0C-4C95-AA7F-E48448850592}|API\\API.csproj|c:\\users\\yehudit\\desktop\\taskiai\\api\\controllers\\adscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDC0474F-3F0C-4C95-AA7F-E48448850592}|API\\API.csproj|solutionrelative:api\\controllers\\adscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{015CF29F-99AD-F63F-AB77-31686A52BE26}|Front\\Front.esproj|c:\\users\\yehudit\\desktop\\taskiai\\front\\src\\app\\services\\ads.service.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{015CF29F-99AD-F63F-AB77-31686A52BE26}|Front\\Front.esproj|solutionrelative:front\\src\\app\\services\\ads.service.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+      "AbsoluteMoniker": "D:0:0:{015CF29F-99AD-F63F-AB77-31686A52BE26}|Front\\Front.esproj|c:\\users\\yehudit\\desktop\\taskiai\\front\\src\\app\\components\\ad-form\\ad-form.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{015CF29F-99AD-F63F-AB77-31686A52BE26}|Front\\Front.esproj|solutionrelative:front\\src\\app\\components\\ad-form\\ad-form.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{015CF29F-99AD-F63F-AB77-31686A52BE26}|Front\\Front.esproj|c:\\users\\yehudit\\desktop\\taskiai\\front\\src\\app\\components\\ads-list\\ads-list.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
@@ -19,24 +19,8 @@
       "RelativeMoniker": "D:0:0:{015CF29F-99AD-F63F-AB77-31686A52BE26}|Front\\Front.esproj|solutionrelative:front\\src\\app\\components\\ads-list\\ads-list.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{015CF29F-99AD-F63F-AB77-31686A52BE26}|Front\\Front.esproj|c:\\users\\yehudit\\desktop\\taskiai\\front\\src\\app\\components\\login\\login.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{015CF29F-99AD-F63F-AB77-31686A52BE26}|Front\\Front.esproj|solutionrelative:front\\src\\app\\components\\login\\login.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{015CF29F-99AD-F63F-AB77-31686A52BE26}|Front\\Front.esproj|c:\\users\\yehudit\\desktop\\taskiai\\front\\src\\app\\app.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{015CF29F-99AD-F63F-AB77-31686A52BE26}|Front\\Front.esproj|solutionrelative:front\\src\\app\\app.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{015CF29F-99AD-F63F-AB77-31686A52BE26}|Front\\Front.esproj|c:\\users\\yehudit\\desktop\\taskiai\\front\\src\\app\\app.module.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{015CF29F-99AD-F63F-AB77-31686A52BE26}|Front\\Front.esproj|solutionrelative:front\\src\\app\\app.module.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{015CF29F-99AD-F63F-AB77-31686A52BE26}|Front\\Front.esproj|c:\\users\\yehudit\\desktop\\taskiai\\front\\src\\app\\components\\map-picker\\map-picker.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{015CF29F-99AD-F63F-AB77-31686A52BE26}|Front\\Front.esproj|solutionrelative:front\\src\\app\\components\\map-picker\\map-picker.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{015CF29F-99AD-F63F-AB77-31686A52BE26}|Front\\Front.esproj|c:\\users\\yehudit\\desktop\\taskiai\\front\\src\\app\\components\\map-picker\\map-picker.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{015CF29F-99AD-F63F-AB77-31686A52BE26}|Front\\Front.esproj|solutionrelative:front\\src\\app\\components\\map-picker\\map-picker.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+      "AbsoluteMoniker": "D:0:0:{015CF29F-99AD-F63F-AB77-31686A52BE26}|Front\\Front.esproj|c:\\users\\yehudit\\desktop\\taskiai\\front\\src\\app\\services\\ads.service.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{015CF29F-99AD-F63F-AB77-31686A52BE26}|Front\\Front.esproj|solutionrelative:front\\src\\app\\services\\ads.service.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{015CF29F-99AD-F63F-AB77-31686A52BE26}|Front\\Front.esproj|c:\\users\\yehudit\\desktop\\taskiai\\front\\src\\app\\services\\auth.service.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
@@ -47,8 +31,20 @@
       "RelativeMoniker": "D:0:0:{015CF29F-99AD-F63F-AB77-31686A52BE26}|Front\\Front.esproj|solutionrelative:front\\src\\app\\components\\ad-form\\ad-form.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{015CF29F-99AD-F63F-AB77-31686A52BE26}|Front\\Front.esproj|c:\\users\\yehudit\\desktop\\taskiai\\front\\src\\app\\app.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{015CF29F-99AD-F63F-AB77-31686A52BE26}|Front\\Front.esproj|solutionrelative:front\\src\\app\\app.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{015CF29F-99AD-F63F-AB77-31686A52BE26}|Front\\Front.esproj|c:\\users\\yehudit\\desktop\\taskiai\\front\\src\\app\\app.module.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{015CF29F-99AD-F63F-AB77-31686A52BE26}|Front\\Front.esproj|solutionrelative:front\\src\\app\\app.module.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{015CF29F-99AD-F63F-AB77-31686A52BE26}|Front\\Front.esproj|c:\\users\\yehudit\\desktop\\taskiai\\front\\src\\app\\components\\login\\login.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{015CF29F-99AD-F63F-AB77-31686A52BE26}|Front\\Front.esproj|solutionrelative:front\\src\\app\\components\\login\\login.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{015CF29F-99AD-F63F-AB77-31686A52BE26}|Front\\Front.esproj|c:\\users\\yehudit\\desktop\\taskiai\\front\\src\\app\\app.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{015CF29F-99AD-F63F-AB77-31686A52BE26}|Front\\Front.esproj|solutionrelative:front\\src\\app\\app.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,136 +54,110 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "app.module.ts",
               "DocumentMoniker": "C:\\Users\\Yehudit\\Desktop\\TaskIAI\\Front\\src\\app\\app.module.ts",
               "RelativeDocumentMoniker": "Front\\src\\app\\app.module.ts",
               "ToolTip": "C:\\Users\\Yehudit\\Desktop\\TaskIAI\\Front\\src\\app\\app.module.ts",
               "RelativeToolTip": "Front\\src\\app\\app.module.ts",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAACgAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAQwC8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2025-08-28T20:39:24.687Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "login.component.ts",
-              "DocumentMoniker": "C:\\Users\\Yehudit\\Desktop\\TaskIAI\\Front\\src\\app\\components\\login\\login.component.ts",
-              "RelativeDocumentMoniker": "Front\\src\\app\\components\\login\\login.component.ts",
-              "ToolTip": "C:\\Users\\Yehudit\\Desktop\\TaskIAI\\Front\\src\\app\\components\\login\\login.component.ts",
-              "RelativeToolTip": "Front\\src\\app\\components\\login\\login.component.ts",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2025-08-28T20:39:04.863Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "app.component.html",
-              "DocumentMoniker": "C:\\Users\\Yehudit\\Desktop\\TaskIAI\\Front\\src\\app\\app.component.html",
-              "RelativeDocumentMoniker": "Front\\src\\app\\app.component.html",
-              "ToolTip": "C:\\Users\\Yehudit\\Desktop\\TaskIAI\\Front\\src\\app\\app.component.html",
-              "RelativeToolTip": "Front\\src\\app\\app.component.html",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-08-28T20:38:17.902Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "map-picker.component.ts",
-              "DocumentMoniker": "C:\\Users\\Yehudit\\Desktop\\TaskIAI\\Front\\src\\app\\components\\map-picker\\map-picker.component.ts",
-              "RelativeDocumentMoniker": "Front\\src\\app\\components\\map-picker\\map-picker.component.ts",
-              "ToolTip": "C:\\Users\\Yehudit\\Desktop\\TaskIAI\\Front\\src\\app\\components\\map-picker\\map-picker.component.ts",
-              "RelativeToolTip": "Front\\src\\app\\components\\map-picker\\map-picker.component.ts",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2025-08-28T20:36:15.141Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "map-picker.component.html",
-              "DocumentMoniker": "C:\\Users\\Yehudit\\Desktop\\TaskIAI\\Front\\src\\app\\components\\map-picker\\map-picker.component.html",
-              "RelativeDocumentMoniker": "Front\\src\\app\\components\\map-picker\\map-picker.component.html",
-              "ToolTip": "C:\\Users\\Yehudit\\Desktop\\TaskIAI\\Front\\src\\app\\components\\map-picker\\map-picker.component.html",
-              "RelativeToolTip": "Front\\src\\app\\components\\map-picker\\map-picker.component.html",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-08-28T20:36:04.05Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "auth.service.ts",
-              "DocumentMoniker": "C:\\Users\\Yehudit\\Desktop\\TaskIAI\\Front\\src\\app\\services\\auth.service.ts",
-              "RelativeDocumentMoniker": "Front\\src\\app\\services\\auth.service.ts",
-              "ToolTip": "C:\\Users\\Yehudit\\Desktop\\TaskIAI\\Front\\src\\app\\services\\auth.service.ts",
-              "RelativeToolTip": "Front\\src\\app\\services\\auth.service.ts",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAQwA4AAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2025-08-28T20:26:38.666Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ad-form.component.html",
-              "DocumentMoniker": "C:\\Users\\Yehudit\\Desktop\\TaskIAI\\Front\\src\\app\\components\\ad-form\\ad-form.component.html",
-              "RelativeDocumentMoniker": "Front\\src\\app\\components\\ad-form\\ad-form.component.html",
-              "ToolTip": "C:\\Users\\Yehudit\\Desktop\\TaskIAI\\Front\\src\\app\\components\\ad-form\\ad-form.component.html",
-              "RelativeToolTip": "Front\\src\\app\\components\\ad-form\\ad-form.component.html",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-08-28T20:26:04.119Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ad-form.component.ts",
-              "DocumentMoniker": "C:\\Users\\Yehudit\\Desktop\\TaskIAI\\Front\\src\\app\\components\\ad-form\\ad-form.component.ts",
-              "RelativeDocumentMoniker": "Front\\src\\app\\components\\ad-form\\ad-form.component.ts",
-              "ToolTip": "C:\\Users\\Yehudit\\Desktop\\TaskIAI\\Front\\src\\app\\components\\ad-form\\ad-form.component.ts",
-              "RelativeToolTip": "Front\\src\\app\\components\\ad-form\\ad-form.component.ts",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2025-08-28T20:26:01.739Z",
+              "WhenOpened": "2025-08-29T00:00:06.743Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "ad-form.component.ts",
+              "DocumentMoniker": "C:\\Users\\Yehudit\\Desktop\\TaskIAI\\Front\\src\\app\\components\\ad-form\\ad-form.component.ts",
+              "RelativeDocumentMoniker": "Front\\src\\app\\components\\ad-form\\ad-form.component.ts",
+              "ToolTip": "C:\\Users\\Yehudit\\Desktop\\TaskIAI\\Front\\src\\app\\components\\ad-form\\ad-form.component.ts",
+              "RelativeToolTip": "Front\\src\\app\\components\\ad-form\\ad-form.component.ts",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAwwEQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-08-28T23:58:53.703Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "ads.service.ts",
               "DocumentMoniker": "C:\\Users\\Yehudit\\Desktop\\TaskIAI\\Front\\src\\app\\services\\ads.service.ts",
               "RelativeDocumentMoniker": "Front\\src\\app\\services\\ads.service.ts",
               "ToolTip": "C:\\Users\\Yehudit\\Desktop\\TaskIAI\\Front\\src\\app\\services\\ads.service.ts",
               "RelativeToolTip": "Front\\src\\app\\services\\ads.service.ts",
-              "ViewState": "AgIAACQAAAAAAAAAAAAowAkAAAALAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAxwDMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2025-08-28T19:53:36.65Z",
+              "WhenOpened": "2025-08-28T23:54:11.444Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ads-list.component.html",
-              "DocumentMoniker": "C:\\Users\\Yehudit\\Desktop\\TaskIAI\\Front\\src\\app\\components\\ads-list\\ads-list.component.html",
-              "RelativeDocumentMoniker": "Front\\src\\app\\components\\ads-list\\ads-list.component.html",
-              "ToolTip": "C:\\Users\\Yehudit\\Desktop\\TaskIAI\\Front\\src\\app\\components\\ads-list\\ads-list.component.html",
-              "RelativeToolTip": "Front\\src\\app\\components\\ads-list\\ads-list.component.html",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAiwA0AAAAfAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "auth.service.ts",
+              "DocumentMoniker": "C:\\Users\\Yehudit\\Desktop\\TaskIAI\\Front\\src\\app\\services\\auth.service.ts",
+              "RelativeDocumentMoniker": "Front\\src\\app\\services\\auth.service.ts",
+              "ToolTip": "C:\\Users\\Yehudit\\Desktop\\TaskIAI\\Front\\src\\app\\services\\auth.service.ts",
+              "RelativeToolTip": "Front\\src\\app\\services\\auth.service.ts",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAMwCEAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-08-28T23:51:37.132Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ad-form.component.html",
+              "DocumentMoniker": "C:\\Users\\Yehudit\\Desktop\\TaskIAI\\Front\\src\\app\\components\\ad-form\\ad-form.component.html",
+              "RelativeDocumentMoniker": "Front\\src\\app\\components\\ad-form\\ad-form.component.html",
+              "ToolTip": "C:\\Users\\Yehudit\\Desktop\\TaskIAI\\Front\\src\\app\\components\\ad-form\\ad-form.component.html",
+              "RelativeToolTip": "Front\\src\\app\\components\\ad-form\\ad-form.component.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-08-28T19:53:18.508Z",
+              "WhenOpened": "2025-08-28T23:48:05.48Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "app.component.html",
+              "DocumentMoniker": "C:\\Users\\Yehudit\\Desktop\\TaskIAI\\Front\\src\\app\\app.component.html",
+              "RelativeDocumentMoniker": "Front\\src\\app\\app.component.html",
+              "ToolTip": "C:\\Users\\Yehudit\\Desktop\\TaskIAI\\Front\\src\\app\\app.component.html",
+              "RelativeToolTip": "Front\\src\\app\\app.component.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-08-28T23:44:11.391Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AdsController.cs",
+              "DocumentMoniker": "C:\\Users\\Yehudit\\Desktop\\TaskIAI\\API\\Controllers\\AdsController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\AdsController.cs",
+              "ToolTip": "C:\\Users\\Yehudit\\Desktop\\TaskIAI\\API\\Controllers\\AdsController.cs",
+              "RelativeToolTip": "API\\Controllers\\AdsController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAASwBgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T23:35:37.327Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "app.component.css",
+              "DocumentMoniker": "C:\\Users\\Yehudit\\Desktop\\TaskIAI\\Front\\src\\app\\app.component.css",
+              "RelativeDocumentMoniker": "Front\\src\\app\\app.component.css",
+              "ToolTip": "C:\\Users\\Yehudit\\Desktop\\TaskIAI\\Front\\src\\app\\app.component.css",
+              "RelativeToolTip": "Front\\src\\app\\app.component.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-08-28T23:43:08.747Z",
               "EditorCaption": ""
             },
             {
@@ -198,20 +168,33 @@
               "RelativeDocumentMoniker": "Front\\src\\app\\components\\ads-list\\ads-list.component.ts",
               "ToolTip": "C:\\Users\\Yehudit\\Desktop\\TaskIAI\\Front\\src\\app\\components\\ads-list\\ads-list.component.ts",
               "RelativeToolTip": "Front\\src\\app\\components\\ads-list\\ads-list.component.ts",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAcwCcAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2025-08-28T19:49:32.918Z",
+              "WhenOpened": "2025-08-28T23:34:47.084Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 3,
+              "Title": "ads-list.component.html",
+              "DocumentMoniker": "C:\\Users\\Yehudit\\Desktop\\TaskIAI\\Front\\src\\app\\components\\ads-list\\ads-list.component.html",
+              "RelativeDocumentMoniker": "Front\\src\\app\\components\\ads-list\\ads-list.component.html",
+              "ToolTip": "C:\\Users\\Yehudit\\Desktop\\TaskIAI\\Front\\src\\app\\components\\ads-list\\ads-list.component.html",
+              "RelativeToolTip": "Front\\src\\app\\components\\ads-list\\ads-list.component.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-08-28T23:32:43.413Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "login.component.html",
               "DocumentMoniker": "C:\\Users\\Yehudit\\Desktop\\TaskIAI\\Front\\src\\app\\components\\login\\login.component.html",
               "RelativeDocumentMoniker": "Front\\src\\app\\components\\login\\login.component.html",
               "ToolTip": "C:\\Users\\Yehudit\\Desktop\\TaskIAI\\Front\\src\\app\\components\\login\\login.component.html",
               "RelativeToolTip": "Front\\src\\app\\components\\login\\login.component.html",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
               "WhenOpened": "2025-08-28T19:25:16.323Z",
               "EditorCaption": ""
