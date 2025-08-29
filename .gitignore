@@ -1,0 +1,17 @@
+# Build folders
+bin/
+obj/
+Debug/
+Release/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# NuGet
+*.nupkg
+project.assets.json
+*.nuget.g.props
+*.nuget.g.targets
+*.nuget.dgspec.json
