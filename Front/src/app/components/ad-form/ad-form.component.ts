@@ -19,8 +19,7 @@ export class AdFormComponent implements OnInit {
     private adsService: AdsService,
     private authService: AuthService,
     private router: Router,
-    private route: ActivatedRoute
-  ) { }
+    private route: ActivatedRoute) { }
 
   ngOnInit() {
     if (!this.authService.isLoggedIn())
@@ -59,7 +58,8 @@ export class AdFormComponent implements OnInit {
         alert('מודעה עודכנה בהצלחה!');
         this.router.navigate(['/']);
       });
-    } else {
+    }
+    else {
       // יצירה
       this.adsService.create(this.ad).subscribe(res => {
         alert('מודעה נשמרה בהצלחה!');

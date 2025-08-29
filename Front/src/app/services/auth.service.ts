@@ -14,7 +14,7 @@ export interface User {
 export class AuthService {
   private currentUser: User | null = null;
 
-  setUser(user: User) {
+  setUser(user: User | null) {
     this.currentUser = user;
   }
 

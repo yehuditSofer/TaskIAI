@@ -42,7 +42,7 @@ export class AdsListComponent {
   }
 
   remove(ad: Ad) {
-    if (confirm('האם אתה בטוח שברצונך למחוק את המודעה הזו?')) {
+    if (confirm('האם ברצונך למחוק מודעה זו?')) {
       this.api.remove(ad.id!).subscribe(() => {
         this.ads = this.ads.filter(a => a.id !== ad.id);
         this.allAds = this.allAds.filter(a => a.id !== ad.id);

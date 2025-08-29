@@ -1,8 +1,6 @@
 using Common.InterfacesBL;
 using Common.InterfacesDAL;
 using Common.Models;
-using Google.Apis.Auth;
-using System.Net.Http;
 
 namespace BL;
 

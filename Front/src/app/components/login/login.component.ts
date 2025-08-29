@@ -1,6 +1,5 @@
 import { Component, EventEmitter, Output } from '@angular/core';
 import { SocialAuthService, GoogleLoginProvider, SocialUser } from '@abacritt/angularx-social-login';
-import { AuthState } from '../../auth.state';
 import { AuthService } from '../../services/auth.service';
 @Component({
   selector: 'app-login',
@@ -9,26 +8,36 @@ import { AuthService } from '../../services/auth.service';
 })
 export class LoginComponent {
   @Output() emailChange = new EventEmitter<string>();
-  email = '';
   name = '';
-  constructor(private auth: SocialAuthService, private state: AuthState, private authService: AuthService) {
+  constructor(private auth: SocialAuthService, private authService: AuthService) {
     this.auth.authState.subscribe((user: SocialUser | null) => {
-        // שומרים את המשתמש הגלובלי
-        this.authService.setUser({
-          id: user!.id,
-          name: user!.name,
-          email: user!.email,
-          photoUrl: user!.photoUrl,
-          idToken: user!.idToken
-        });
+      // שומרים את המשתמש הגלובלי
+      this.authService.setUser({
+        id: user!.id,
+        name: user!.name,
+        email: user!.email,
+        photoUrl: user!.photoUrl,
+        idToken: user!.idToken
+      });
       localStorage.setItem('google_id_token', user!.idToken); // 🔑 כאן נשמר
-        this.name = user?.name ?? '';
-        this.state.setEmail(this.email);
-        this.emailChange.emit(this.email);
-      
+      this.name = user?.name ?? '';
+      this.emailChange.emit(user!.email);
     });
   }
 
-  signIn() { this.auth.signIn(GoogleLoginProvider.PROVIDER_ID); }
-  signOut() { this.auth.signOut(); }
+  signIn() {
+    this.auth.signIn(GoogleLoginProvider.PROVIDER_ID);
+  }
+
+  signOut() {
+    this.auth.signOut(true).then(() => {
+      console.log("Signed out");
+      this.authService.setUser(null);
+      localStorage.removeItem('google_id_token');
+      this.name = '';
+      this.emailChange.emit('');
+    }).catch(err => {
+      console.error("Sign out failed:", err);
+    });
+  }
 }

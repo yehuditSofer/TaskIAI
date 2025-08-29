@@ -1,7 +1,7 @@
 <div class="ads-list-container">
   <div class="search-bar">
     <input [(ngModel)]="q" placeholder="חיפוש..." (ngModelChange)="search()" />
-    <input [(ngModel)]="radiusKm" placeholder="רדיוס (ק''מ)" type="number" (ngModelChange)="search()" />
+    <input [(ngModel)]="radiusKm" placeholder="רדיוס (ק''מ)" type="number" (ngModelChange)="load()" />
     <button (click)="useLocation()">לפי מיקומי</button>
     <button (click)="load()">רענון</button>
     <button (click)="create()" *ngIf="isLogin()">מודעה חדשה</button>
