@@ -36,8 +36,42 @@ public class JsonAdRepository : IAdRepository
         await stream.FlushAsync();
     }
 
-    public async Task<IReadOnlyList<Ad>> GetAllAsync() => await ReadAllAsync();
+    public async Task<IReadOnlyList<Ad>> GetAllAsync(string? q = null, double? lat = null, double? lng = null, double? radiusKm = null)
+    {
+        var ads = await ReadAllAsync();
 
+        if (!string.IsNullOrWhiteSpace(q))
+        {
+            q = q.Trim().ToLowerInvariant();
+            ads = ads
+                .Where(a => a.Title.ToLowerInvariant().Contains(q) || a.Description.ToLowerInvariant().Contains(q))
+                .ToList();
+        }
+
+        if (lat.HasValue && lng.HasValue && radiusKm.HasValue && radiusKm > 0)
+        {
+            ads = ads
+                .Where(a => a.Location is not null && DistanceKm(lat.Value, lng.Value, a.Location!.Lat, a.Location!.Lng) <= radiusKm.Value)
+                .ToList();
+        }
+
+        return ads.OrderByDescending(a => a.CreatedAt).ToList();
+    }
+
+    // חישוב מרחק
+    private static double DistanceKm(double lat1, double lon1, double lat2, double lon2)
+    {
+        const double R = 6371.0;
+        double dLat = ToRad(lat2 - lat1);
+        double dLon = ToRad(lon2 - lon1);
+        double a = Math.Sin(dLat / 2) * Math.Sin(dLat / 2) +
+                   Math.Cos(ToRad(lat1)) * Math.Cos(ToRad(lat2)) *
+                   Math.Sin(dLon / 2) * Math.Sin(dLon / 2);
+        double c = 2 * Math.Atan2(Math.Sqrt(a), Math.Sqrt(1 - a));
+        return R * c;
+    }
+
+    private static double ToRad(double v) => v * Math.PI / 180.0;
     public async Task<Ad?> GetByIdAsync(Guid id)
     {
         var ads = await ReadAllAsync();

@@ -1,3 +1,6 @@
-# ignore Visual Studio files
+# Visual Studio
 .vs/
 *.vsidx
+*.vscode/
+bin/
+obj/

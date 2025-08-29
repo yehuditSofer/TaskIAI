@@ -20,8 +20,8 @@ export class AdsService {
   constructor(private http: HttpClient) { }
 
   // --- GET list עם סינון ---
-  list(q?: string, lat?: number, lng?: number, radiusKm?: number): Observable<Ad[]> {
-    let params = new HttpParams();
+  list(q?: string, lat?: number, lng?: number, radiusKm?: number, skip: number = 0, take: number = 20): Observable<Ad[]> {
+    let params = new HttpParams().set('skip', skip).set('take', take);
     if (q) params = params.set('q', q);
     if (lat != null && lng != null && radiusKm != null) {
       params = params.set('lat', lat).set('lng', lng).set('radiusKm', radiusKm);

@@ -1,14 +1,1202 @@
 [
   {
-    "Id": "1df43e23-d517-47ca-a500-f2e77a1a7357",
-    "Title": "\u05D3\u05D9\u05E8\u05D4 \u05DC\u05D4\u05E9\u05DB\u05E8\u05D4",
-    "Description": "3 \u05D7\u05D3\u05E8\u05D9\u05DD \u05D1\u05DE\u05E8\u05DB\u05D6 \u05EA\u05DC \u05D0\u05D1\u05D9\u05D1",
+    "Id": "6231f684-c261-4d77-995a-56d20e8a5472",
+    "Title": "דירה להשכרה 1",
+    "Description": "2 חדרים בעיר כלשהי",
     "CreatedBy": "123456789",
     "Location": {
-      "Lat": 32.0853,
-      "Lng": 34.7818
+      "Lat": 31.6277,
+      "Lng": 36.1903
     },
-    "CreatedAt": "2025-08-26T18:00:00Z",
+    "CreatedAt": "2025-08-26T18:10:00Z",
+    "UpdatedAt": null
+  },
+  {
+    "Id": "fefe785f-2ff9-49f2-a5a7-694243af1c3f",
+    "Title": "דירה להשכרה 2",
+    "Description": "3 חדרים בעיר כלשהי",
+    "CreatedBy": "123456789",
+    "Location": {
+      "Lat": 31.7257,
+      "Lng": 35.1751
+    },
+    "CreatedAt": "2025-08-26T18:20:00Z",
+    "UpdatedAt": null
+  },
+  {
+    "Id": "893dc523-bbe4-4762-be77-f3c00d93a23a",
+    "Title": "דירה להשכרה 3",
+    "Description": "4 חדרים בעיר כלשהי",
+    "CreatedBy": "123456789",
+    "Location": {
+      "Lat": 32.415,
+      "Lng": 35.5348
+    },
+    "CreatedAt": "2025-08-26T18:30:00Z",
+    "UpdatedAt": null
+  },
+  {
+    "Id": "20294355-8f65-4dfb-8f2d-5972c8bb5df8",
+    "Title": "דירה להשכרה 4",
+    "Description": "5 חדרים בעיר כלשהי",
+    "CreatedBy": "123456789",
+    "Location": {
+      "Lat": 33.356,
+      "Lng": 36.1211
+    },
+    "CreatedAt": "2025-08-26T18:40:00Z",
+    "UpdatedAt": null
+  },
+  {
+    "Id": "4d298624-b888-4e9b-aa4b-5cb290d866ad",
+    "Title": "דירה להשכרה 5",
+    "Description": "6 חדרים בעיר כלשהי",
+    "CreatedBy": "123456789",
+    "Location": {
+      "Lat": 33.8312,
+      "Lng": 35.3283
+    },
+    "CreatedAt": "2025-08-26T18:50:00Z",
+    "UpdatedAt": null
+  },
+  {
+    "Id": "f1e1720a-335e-427c-a4f8-45153d0d7dc0",
+    "Title": "דירה להשכרה 6",
+    "Description": "1 חדרים בעיר כלשהי",
+    "CreatedBy": "123456789",
+    "Location": {
+      "Lat": 32.295,
+      "Lng": 36.3615
+    },
+    "CreatedAt": "2025-08-26T19:00:00Z",
+    "UpdatedAt": null
+  },
+  {
+    "Id": "90c3aa8b-22fa-404a-8694-4d03b032cc84",
+    "Title": "דירה להשכרה 7",
+    "Description": "2 חדרים בעיר כלשהי",
+    "CreatedBy": "123456789",
+    "Location": {
+      "Lat": 32.6595,
+      "Lng": 35.1774
+    },
+    "CreatedAt": "2025-08-26T19:10:00Z",
+    "UpdatedAt": null
+  },
+  {
+    "Id": "5d835957-f13a-460c-9f1e-8db92c0f5754",
+    "Title": "דירה להשכרה 8",
+    "Description": "3 חדרים בעיר כלשהי",
+    "CreatedBy": "123456789",
+    "Location": {
+      "Lat": 31.5196,
+      "Lng": 36.497
+    },
+    "CreatedAt": "2025-08-26T19:20:00Z",
+    "UpdatedAt": null
+  },
+  {
+    "Id": "fd6f342d-7e5a-43b9-9e92-f4052be54127",
+    "Title": "דירה להשכרה 9",
+    "Description": "4 חדרים בעיר כלשהי",
+    "CreatedBy": "123456789",
+    "Location": {
+      "Lat": 33.0584,
+      "Lng": 36.2367
+    },
+    "CreatedAt": "2025-08-26T19:30:00Z",
+    "UpdatedAt": null
+  },
+  {
+    "Id": "3724b4eb-57a9-4bae-9be7-094f1e16bb97",
+    "Title": "דירה להשכרה 10",
+    "Description": "5 חדרים בעיר כלשהי",
+    "CreatedBy": "123456789",
+    "Location": {
+      "Lat": 32.0335,
+      "Lng": 36.7665
+    },
+    "CreatedAt": "2025-08-26T19:40:00Z",
+    "UpdatedAt": null
+  },
+  {
+    "Id": "6a75e635-48c4-4513-9619-e3dab131dd27",
+    "Title": "דירה להשכרה 11",
+    "Description": "6 חדרים בעיר כלשהי",
+    "CreatedBy": "123456789",
+    "Location": {
+      "Lat": 31.7783,
+      "Lng": 35.0108
+    },
+    "CreatedAt": "2025-08-26T19:50:00Z",
+    "UpdatedAt": null
+  },
+  {
+    "Id": "97ca5fc9-d043-419c-8afe-124fc5fab736",
+    "Title": "דירה להשכרה 12",
+    "Description": "1 חדרים בעיר כלשהי",
+    "CreatedBy": "123456789",
+    "Location": {
+      "Lat": 33.2099,
+      "Lng": 36.0954
+    },
+    "CreatedAt": "2025-08-26T20:00:00Z",
+    "UpdatedAt": null
+  },
+  {
+    "Id": "9aefe9b6-5fd1-4e77-b0d3-a4be58c4bbd4",
+    "Title": "דירה להשכרה 13",
+    "Description": "2 חדרים בעיר כלשהי",
+    "CreatedBy": "123456789",
+    "Location": {
+      "Lat": 32.5676,
+      "Lng": 34.7699
+    },
+    "CreatedAt": "2025-08-26T20:10:00Z",
+    "UpdatedAt": null
+  },
+  {
+    "Id": "6c29fa94-06ac-4e7d-be6c-f00f4c72c912",
+    "Title": "דירה להשכרה 14",
+    "Description": "3 חדרים בעיר כלשהי",
+    "CreatedBy": "123456789",
+    "Location": {
+      "Lat": 33.9059,
+      "Lng": 35.2229
+    },
+    "CreatedAt": "2025-08-26T20:20:00Z",
+    "UpdatedAt": null
+  },
+  {
+    "Id": "f8b6ae85-9954-4b9e-ad53-e879dbf94294",
+    "Title": "דירה להשכרה 15",
+    "Description": "4 חדרים בעיר כלשהי",
+    "CreatedBy": "123456789",
+    "Location": {
+      "Lat": 33.4916,
+      "Lng": 35.5331
+    },
+    "CreatedAt": "2025-08-26T20:30:00Z",
+    "UpdatedAt": null
+  },
+  {
+    "Id": "a3c3c8ea-8bae-48c0-bbfe-1640eb4ab0a0",
+    "Title": "דירה להשכרה 16",
+    "Description": "5 חדרים בעיר כלשהי",
+    "CreatedBy": "123456789",
+    "Location": {
+      "Lat": 31.9358,
+      "Lng": 34.5764
+    },
+    "CreatedAt": "2025-08-26T20:40:00Z",
+    "UpdatedAt": null
+  },
+  {
+    "Id": "35652721-ae22-47db-907b-2fca631d532d",
+    "Title": "דירה להשכרה 17",
+    "Description": "6 חדרים בעיר כלשהי",
+    "CreatedBy": "123456789",
+    "Location": {
+      "Lat": 32.1414,
+      "Lng": 36.4132
+    },
+    "CreatedAt": "2025-08-26T20:50:00Z",
+    "UpdatedAt": null
+  },
+  {
+    "Id": "9536fb89-b635-4ff0-ac8e-159869d66b4a",
+    "Title": "דירה להשכרה 18",
+    "Description": "1 חדרים בעיר כלשהי",
+    "CreatedBy": "123456789",
+    "Location": {
+      "Lat": 33.1815,
+      "Lng": 36.0381
+    },
+    "CreatedAt": "2025-08-26T21:00:00Z",
+    "UpdatedAt": null
+  },
+  {
+    "Id": "9c032571-6b77-445f-b487-58e029d8cf68",
+    "Title": "דירה להשכרה 19",
+    "Description": "2 חדרים בעיר כלשהי",
+    "CreatedBy": "123456789",
+    "Location": {
+      "Lat": 31.83,
+      "Lng": 34.7455
+    },
+    "CreatedAt": "2025-08-26T21:10:00Z",
+    "UpdatedAt": null
+  },
+  {
+    "Id": "0451586a-6647-4df6-aac0-f36ac84ebcca",
+    "Title": "דירה להשכרה 20",
+    "Description": "3 חדרים בעיר כלשהי",
+    "CreatedBy": "123456789",
+    "Location": {
+      "Lat": 32.9932,
+      "Lng": 35.4066
+    },
+    "CreatedAt": "2025-08-26T21:20:00Z",
+    "UpdatedAt": null
+  },
+  {
+    "Id": "868797c8-689b-47e8-833a-c347222bec39",
+    "Title": "דירה להשכרה 21",
+    "Description": "4 חדרים בעיר כלשהי",
+    "CreatedBy": "123456789",
+    "Location": {
+      "Lat": 33.8518,
+      "Lng": 34.9754
+    },
+    "CreatedAt": "2025-08-26T21:30:00Z",
+    "UpdatedAt": null
+  },
+  {
+    "Id": "abb5235b-f547-4fb6-9fcc-9179144bae27",
+    "Title": "דירה להשכרה 22",
+    "Description": "5 חדרים בעיר כלשהי",
+    "CreatedBy": "123456789",
+    "Location": {
+      "Lat": 32.6373,
+      "Lng": 35.8302
+    },
+    "CreatedAt": "2025-08-26T21:40:00Z",
+    "UpdatedAt": null
+  },
+  {
+    "Id": "fe848752-0787-451a-9247-08bf7e0afbc2",
+    "Title": "דירה להשכרה 23",
+    "Description": "6 חדרים בעיר כלשהי",
+    "CreatedBy": "123456789",
+    "Location": {
+      "Lat": 33.4682,
+      "Lng": 36.0585
+    },
+    "CreatedAt": "2025-08-26T21:50:00Z",
+    "UpdatedAt": null
+  },
+  {
+    "Id": "65646a3b-e771-4d61-a109-7c70a38fe8bb",
+    "Title": "דירה להשכרה 24",
+    "Description": "1 חדרים בעיר כלשהי",
+    "CreatedBy": "123456789",
+    "Location": {
+      "Lat": 33.6887,
+      "Lng": 35.2462
+    },
+    "CreatedAt": "2025-08-26T22:00:00Z",
+    "UpdatedAt": null
+  },
+  {
+    "Id": "93552e61-6541-4eaf-8b55-7412006bf505",
+    "Title": "דירה להשכרה 25",
+    "Description": "2 חדרים בעיר כלשהי",
+    "CreatedBy": "123456789",
+    "Location": {
+      "Lat": 31.6834,
+      "Lng": 35.4992
+    },
+    "CreatedAt": "2025-08-26T22:10:00Z",
+    "UpdatedAt": null
+  },
+  {
+    "Id": "96fbfd74-55bc-4a01-bedd-d091a598411d",
+    "Title": "דירה להשכרה 26",
+    "Description": "3 חדרים בעיר כלשהי",
+    "CreatedBy": "123456789",
+    "Location": {
+      "Lat": 31.6594,
+      "Lng": 36.1634
+    },
+    "CreatedAt": "2025-08-26T22:20:00Z",
+    "UpdatedAt": null
+  },
+  {
+    "Id": "503a2f2f-28cd-44be-8aa9-1c697143b498",
+    "Title": "דירה להשכרה 27",
+    "Description": "4 חדרים בעיר כלשהי",
+    "CreatedBy": "123456789",
+    "Location": {
+      "Lat": 31.7935,
+      "Lng": 34.821
+    },
+    "CreatedAt": "2025-08-26T22:30:00Z",
+    "UpdatedAt": null
+  },
+  {
+    "Id": "2010eccd-d742-41e4-92d6-a6885a3da21a",
+    "Title": "דירה להשכרה 28",
+    "Description": "5 חדרים בעיר כלשהי",
+    "CreatedBy": "123456789",
+    "Location": {
+      "Lat": 32.7195,
+      "Lng": 36.9128
+    },
+    "CreatedAt": "2025-08-26T22:40:00Z",
+    "UpdatedAt": null
+  },
+  {
+    "Id": "73a14871-3506-4696-ac1b-35b7862c1dd5",
+    "Title": "דירה להשכרה 29",
+    "Description": "6 חדרים בעיר כלשהי",
+    "CreatedBy": "123456789",
+    "Location": {
+      "Lat": 32.0625,
+      "Lng": 36.5732
+    },
+    "CreatedAt": "2025-08-26T22:50:00Z",
+    "UpdatedAt": null
+  },
+  {
+    "Id": "7f6d5f07-b186-46c8-a14f-63138675f9a0",
+    "Title": "דירה להשכרה 30",
+    "Description": "1 חדרים בעיר כלשהי",
+    "CreatedBy": "123456789",
+    "Location": {
+      "Lat": 32.0383,
+      "Lng": 34.7667
+    },
+    "CreatedAt": "2025-08-26T23:00:00Z",
+    "UpdatedAt": null
+  },
+  {
+    "Id": "967bc9ce-8338-4ea5-8de5-67594cf78cfe",
+    "Title": "דירה להשכרה 31",
+    "Description": "2 חדרים בעיר כלשהי",
+    "CreatedBy": "123456789",
+    "Location": {
+      "Lat": 32.2031,
+      "Lng": 34.7254
+    },
+    "CreatedAt": "2025-08-26T23:10:00Z",
+    "UpdatedAt": null
+  },
+  {
+    "Id": "c46053a5-f815-440f-a8b1-7b229eb47124",
+    "Title": "דירה להשכרה 32",
+    "Description": "3 חדרים בעיר כלשהי",
+    "CreatedBy": "123456789",
+    "Location": {
+      "Lat": 32.9681,
+      "Lng": 36.6304
+    },
+    "CreatedAt": "2025-08-26T23:20:00Z",
+    "UpdatedAt": null
+  },
+  {
+    "Id": "028f20ec-a6a0-4a4d-bba9-244dc2d352ec",
+    "Title": "דירה להשכרה 33",
+    "Description": "4 חדרים בעיר כלשהי",
+    "CreatedBy": "123456789",
+    "Location": {
+      "Lat": 33.3478,
+      "Lng": 35.5861
+    },
+    "CreatedAt": "2025-08-26T23:30:00Z",
+    "UpdatedAt": null
+  },
+  {
+    "Id": "b820780b-2f11-428d-8960-968ac6d784e5",
+    "Title": "דירה להשכרה 34",
+    "Description": "5 חדרים בעיר כלשהי",
+    "CreatedBy": "123456789",
+    "Location": {
+      "Lat": 31.8048,
+      "Lng": 35.1666
+    },
+    "CreatedAt": "2025-08-26T23:40:00Z",
+    "UpdatedAt": null
+  },
+  {
+    "Id": "e304b7dc-4a08-44b5-93bf-6c8e5e96ecf6",
+    "Title": "דירה להשכרה 35",
+    "Description": "6 חדרים בעיר כלשהי",
+    "CreatedBy": "123456789",
+    "Location": {
+      "Lat": 31.5706,
+      "Lng": 36.5388
+    },
+    "CreatedAt": "2025-08-26T23:50:00Z",
+    "UpdatedAt": null
+  },
+  {
+    "Id": "ab17a0b5-3e52-4e3e-a57f-2ef829aa00ed",
+    "Title": "דירה להשכרה 36",
+    "Description": "1 חדרים בעיר כלשהי",
+    "CreatedBy": "123456789",
+    "Location": {
+      "Lat": 31.8447,
+      "Lng": 36.5265
+    },
+    "CreatedAt": "2025-08-27T00:00:00Z",
+    "UpdatedAt": null
+  },
+  {
+    "Id": "69e352cb-9504-4eac-97a4-23a9dd3f9286",
+    "Title": "דירה להשכרה 37",
+    "Description": "2 חדרים בעיר כלשהי",
+    "CreatedBy": "123456789",
+    "Location": {
+      "Lat": 33.9678,
+      "Lng": 36.2596
+    },
+    "CreatedAt": "2025-08-27T00:10:00Z",
+    "UpdatedAt": null
+  },
+  {
+    "Id": "00749643-8748-4d26-9aad-fddafcef0bb6",
+    "Title": "דירה להשכרה 38",
+    "Description": "3 חדרים בעיר כלשהי",
+    "CreatedBy": "123456789",
+    "Location": {
+      "Lat": 33.983,
+      "Lng": 35.8992
+    },
+    "CreatedAt": "2025-08-27T00:20:00Z",
+    "UpdatedAt": null
+  },
+  {
+    "Id": "235e2fff-47d1-48b7-b127-18edff041cb7",
+    "Title": "דירה להשכרה 39",
+    "Description": "4 חדרים בעיר כלשהי",
+    "CreatedBy": "123456789",
+    "Location": {
+      "Lat": 32.109,
+      "Lng": 36.2351
+    },
+    "CreatedAt": "2025-08-27T00:30:00Z",
+    "UpdatedAt": null
+  },
+  {
+    "Id": "684beb99-65ad-4ef7-886e-435de49e1a0b",
+    "Title": "דירה להשכרה 40",
+    "Description": "5 חדרים בעיר כלשהי",
+    "CreatedBy": "123456789",
+    "Location": {
+      "Lat": 33.4132,
+      "Lng": 35.3201
+    },
+    "CreatedAt": "2025-08-27T00:40:00Z",
+    "UpdatedAt": null
+  },
+  {
+    "Id": "082b7eee-a051-40e9-805d-00710a27b26e",
+    "Title": "דירה להשכרה 41",
+    "Description": "6 חדרים בעיר כלשהי",
+    "CreatedBy": "123456789",
+    "Location": {
+      "Lat": 32.4935,
+      "Lng": 36.7768
+    },
+    "CreatedAt": "2025-08-27T00:50:00Z",
+    "UpdatedAt": null
+  },
+  {
+    "Id": "473a06d0-5df3-4e4f-9557-380837d54445",
+    "Title": "דירה להשכרה 42",
+    "Description": "1 חדרים בעיר כלשהי",
+    "CreatedBy": "123456789",
+    "Location": {
+      "Lat": 32.1605,
+      "Lng": 34.56
+    },
+    "CreatedAt": "2025-08-27T01:00:00Z",
+    "UpdatedAt": null
+  },
+  {
+    "Id": "50318e80-8c86-4a05-92e8-049b2f2ea65e",
+    "Title": "דירה להשכרה 43",
+    "Description": "2 חדרים בעיר כלשהי",
+    "CreatedBy": "123456789",
+    "Location": {
+      "Lat": 32.5993,
+      "Lng": 35.8912
+    },
+    "CreatedAt": "2025-08-27T01:10:00Z",
+    "UpdatedAt": null
+  },
+  {
+    "Id": "48a8cf6d-d2a7-4c56-b8a6-9d7680780fba",
+    "Title": "דירה להשכרה 44",
+    "Description": "3 חדרים בעיר כלשהי",
+    "CreatedBy": "123456789",
+    "Location": {
+      "Lat": 33.2948,
+      "Lng": 36.43
+    },
+    "CreatedAt": "2025-08-27T01:20:00Z",
+    "UpdatedAt": null
+  },
+  {
+    "Id": "ede56352-8b3e-4f9f-a9c1-f67f19d8e9fa",
+    "Title": "דירה להשכרה 45",
+    "Description": "4 חדרים בעיר כלשהי",
+    "CreatedBy": "123456789",
+    "Location": {
+      "Lat": 33.0491,
+      "Lng": 34.734
+    },
+    "CreatedAt": "2025-08-27T01:30:00Z",
+    "UpdatedAt": null
+  },
+  {
+    "Id": "406cd9a5-8f83-4c12-bc23-b1304ee03307",
+    "Title": "דירה להשכרה 46",
+    "Description": "5 חדרים בעיר כלשהי",
+    "CreatedBy": "123456789",
+    "Location": {
+      "Lat": 32.2748,
+      "Lng": 35.9664
+    },
+    "CreatedAt": "2025-08-27T01:40:00Z",
+    "UpdatedAt": null
+  },
+  {
+    "Id": "2a2c034d-46db-417d-9696-ba9b424d7895",
+    "Title": "דירה להשכרה 47",
+    "Description": "6 חדרים בעיר כלשהי",
+    "CreatedBy": "123456789",
+    "Location": {
+      "Lat": 33.6077,
+      "Lng": 35.1888
+    },
+    "CreatedAt": "2025-08-27T01:50:00Z",
+    "UpdatedAt": null
+  },
+  {
+    "Id": "de62cf38-edd5-4142-bc62-acf199c67bcc",
+    "Title": "דירה להשכרה 48",
+    "Description": "1 חדרים בעיר כלשהי",
+    "CreatedBy": "123456789",
+    "Location": {
+      "Lat": 32.9531,
+      "Lng": 34.6888
+    },
+    "CreatedAt": "2025-08-27T02:00:00Z",
+    "UpdatedAt": null
+  },
+  {
+    "Id": "572357f0-f0f5-4e50-97c9-f1753c78591d",
+    "Title": "דירה להשכרה 49",
+    "Description": "2 חדרים בעיר כלשהי",
+    "CreatedBy": "123456789",
+    "Location": {
+      "Lat": 31.8717,
+      "Lng": 36.1459
+    },
+    "CreatedAt": "2025-08-27T02:10:00Z",
+    "UpdatedAt": null
+  },
+  {
+    "Id": "9514175f-093e-49d2-baab-e805f7932576",
+    "Title": "דירה להשכרה 50",
+    "Description": "3 חדרים בעיר כלשהי",
+    "CreatedBy": "123456789",
+    "Location": {
+      "Lat": 33.585,
+      "Lng": 35.7379
+    },
+    "CreatedAt": "2025-08-27T02:20:00Z",
+    "UpdatedAt": null
+  },
+  {
+    "Id": "cb8f0a82-f362-42a3-8b30-aa488068d09e",
+    "Title": "דירה להשכרה 51",
+    "Description": "4 חדרים בעיר כלשהי",
+    "CreatedBy": "123456789",
+    "Location": {
+      "Lat": 33.8682,
+      "Lng": 36.2249
+    },
+    "CreatedAt": "2025-08-27T02:30:00Z",
+    "UpdatedAt": null
+  },
+  {
+    "Id": "da12c341-cd86-493f-9122-1634a819f1c0",
+    "Title": "דירה להשכרה 52",
+    "Description": "5 חדרים בעיר כלשהי",
+    "CreatedBy": "123456789",
+    "Location": {
+      "Lat": 33.2815,
+      "Lng": 36.8302
+    },
+    "CreatedAt": "2025-08-27T02:40:00Z",
+    "UpdatedAt": null
+  },
+  {
+    "Id": "125fc991-1fb3-4ec5-8789-51f70ea5464a",
+    "Title": "דירה להשכרה 53",
+    "Description": "6 חדרים בעיר כלשהי",
+    "CreatedBy": "123456789",
+    "Location": {
+      "Lat": 33.0388,
+      "Lng": 35.1505
+    },
+    "CreatedAt": "2025-08-27T02:50:00Z",
+    "UpdatedAt": null
+  },
+  {
+    "Id": "74b38767-286e-4820-a0db-1dbed2566cf4",
+    "Title": "דירה להשכרה 54",
+    "Description": "1 חדרים בעיר כלשהי",
+    "CreatedBy": "123456789",
+    "Location": {
+      "Lat": 32.7334,
+      "Lng": 35.4611
+    },
+    "CreatedAt": "2025-08-27T03:00:00Z",
+    "UpdatedAt": null
+  },
+  {
+    "Id": "ff81d9f7-cc9d-42b8-b22d-36af1dc3e5ca",
+    "Title": "דירה להשכרה 55",
+    "Description": "2 חדרים בעיר כלשהי",
+    "CreatedBy": "123456789",
+    "Location": {
+      "Lat": 33.8269,
+      "Lng": 34.9637
+    },
+    "CreatedAt": "2025-08-27T03:10:00Z",
+    "UpdatedAt": null
+  },
+  {
+    "Id": "bed6a983-78bc-4265-af10-e83ae9af49cc",
+    "Title": "דירה להשכרה 56",
+    "Description": "3 חדרים בעיר כלשהי",
+    "CreatedBy": "123456789",
+    "Location": {
+      "Lat": 33.5133,
+      "Lng": 35.9534
+    },
+    "CreatedAt": "2025-08-27T03:20:00Z",
+    "UpdatedAt": null
+  },
+  {
+    "Id": "34f3fa13-d34d-4fe4-a77d-f34376569f25",
+    "Title": "דירה להשכרה 57",
+    "Description": "4 חדרים בעיר כלשהי",
+    "CreatedBy": "123456789",
+    "Location": {
+      "Lat": 31.8832,
+      "Lng": 35.1025
+    },
+    "CreatedAt": "2025-08-27T03:30:00Z",
+    "UpdatedAt": null
+  },
+  {
+    "Id": "57999d5c-7dfa-4af7-8d53-0592c3005d00",
+    "Title": "דירה להשכרה 58",
+    "Description": "5 חדרים בעיר כלשהי",
+    "CreatedBy": "123456789",
+    "Location": {
+      "Lat": 33.7985,
+      "Lng": 36.1427
+    },
+    "CreatedAt": "2025-08-27T03:40:00Z",
+    "UpdatedAt": null
+  },
+  {
+    "Id": "249502d1-03b4-4d6e-850d-4a63d9a580bb",
+    "Title": "דירה להשכרה 59",
+    "Description": "6 חדרים בעיר כלשהי",
+    "CreatedBy": "123456789",
+    "Location": {
+      "Lat": 32.4733,
+      "Lng": 34.5048
+    },
+    "CreatedAt": "2025-08-27T03:50:00Z",
+    "UpdatedAt": null
+  },
+  {
+    "Id": "b5266fc7-0be3-428a-a700-fc321ebf554f",
+    "Title": "דירה להשכרה 60",
+    "Description": "1 חדרים בעיר כלשהי",
+    "CreatedBy": "123456789",
+    "Location": {
+      "Lat": 33.6807,
+      "Lng": 34.9018
+    },
+    "CreatedAt": "2025-08-27T04:00:00Z",
+    "UpdatedAt": null
+  },
+  {
+    "Id": "43fe96e3-3d22-4135-8a3e-c58705b4f48e",
+    "Title": "דירה להשכרה 61",
+    "Description": "2 חדרים בעיר כלשהי",
+    "CreatedBy": "123456789",
+    "Location": {
+      "Lat": 31.8574,
+      "Lng": 35.5405
+    },
+    "CreatedAt": "2025-08-27T04:10:00Z",
+    "UpdatedAt": null
+  },
+  {
+    "Id": "8e719541-c26f-4654-acf2-d22e2171aed0",
+    "Title": "דירה להשכרה 62",
+    "Description": "3 חדרים בעיר כלשהי",
+    "CreatedBy": "123456789",
+    "Location": {
+      "Lat": 32.4442,
+      "Lng": 35.4227
+    },
+    "CreatedAt": "2025-08-27T04:20:00Z",
+    "UpdatedAt": null
+  },
+  {
+    "Id": "938dfb8f-a4ab-48c4-87db-ef3cf9f458c9",
+    "Title": "דירה להשכרה 63",
+    "Description": "4 חדרים בעיר כלשהי",
+    "CreatedBy": "123456789",
+    "Location": {
+      "Lat": 32.387,
+      "Lng": 34.6014
+    },
+    "CreatedAt": "2025-08-27T04:30:00Z",
+    "UpdatedAt": null
+  },
+  {
+    "Id": "e54a986f-52f7-4eac-aa9f-8d7db12b8586",
+    "Title": "דירה להשכרה 64",
+    "Description": "5 חדרים בעיר כלשהי",
+    "CreatedBy": "123456789",
+    "Location": {
+      "Lat": 32.0795,
+      "Lng": 36.8628
+    },
+    "CreatedAt": "2025-08-27T04:40:00Z",
+    "UpdatedAt": null
+  },
+  {
+    "Id": "2a2da29b-a00e-4c80-ac9a-83f72d822ebd",
+    "Title": "דירה להשכרה 65",
+    "Description": "6 חדרים בעיר כלשהי",
+    "CreatedBy": "123456789",
+    "Location": {
+      "Lat": 32.3652,
+      "Lng": 36.2134
+    },
+    "CreatedAt": "2025-08-27T04:50:00Z",
+    "UpdatedAt": null
+  },
+  {
+    "Id": "fce0ead7-8faf-4b05-8de3-2fe145964a39",
+    "Title": "דירה להשכרה 66",
+    "Description": "1 חדרים בעיר כלשהי",
+    "CreatedBy": "123456789",
+    "Location": {
+      "Lat": 33.5568,
+      "Lng": 34.653
+    },
+    "CreatedAt": "2025-08-27T05:00:00Z",
+    "UpdatedAt": null
+  },
+  {
+    "Id": "d8c55b49-eae0-49e9-ae3d-0443fc7b8c8c",
+    "Title": "דירה להשכרה 67",
+    "Description": "2 חדרים בעיר כלשהי",
+    "CreatedBy": "123456789",
+    "Location": {
+      "Lat": 32.5255,
+      "Lng": 35.741
+    },
+    "CreatedAt": "2025-08-27T05:10:00Z",
+    "UpdatedAt": null
+  },
+  {
+    "Id": "717c017b-2636-4ccc-8c4b-067acafa4c89",
+    "Title": "דירה להשכרה 68",
+    "Description": "3 חדרים בעיר כלשהי",
+    "CreatedBy": "123456789",
+    "Location": {
+      "Lat": 33.8204,
+      "Lng": 35.3772
+    },
+    "CreatedAt": "2025-08-27T05:20:00Z",
+    "UpdatedAt": null
+  },
+  {
+    "Id": "9cd806be-4652-43d3-8b8c-557a80303732",
+    "Title": "דירה להשכרה 69",
+    "Description": "4 חדרים בעיר כלשהי",
+    "CreatedBy": "123456789",
+    "Location": {
+      "Lat": 32.0495,
+      "Lng": 35.402
+    },
+    "CreatedAt": "2025-08-27T05:30:00Z",
+    "UpdatedAt": null
+  },
+  {
+    "Id": "18dcac8b-7afb-4d67-95bc-4cb5dc50d90d",
+    "Title": "דירה להשכרה 70",
+    "Description": "5 חדרים בעיר כלשהי",
+    "CreatedBy": "123456789",
+    "Location": {
+      "Lat": 32.2126,
+      "Lng": 36.6542
+    },
+    "CreatedAt": "2025-08-27T05:40:00Z",
+    "UpdatedAt": null
+  },
+  {
+    "Id": "b13275c0-4058-467a-84b1-134fc87227d0",
+    "Title": "דירה להשכרה 71",
+    "Description": "6 חדרים בעיר כלשהי",
+    "CreatedBy": "123456789",
+    "Location": {
+      "Lat": 31.5088,
+      "Lng": 36.1637
+    },
+    "CreatedAt": "2025-08-27T05:50:00Z",
+    "UpdatedAt": null
+  },
+  {
+    "Id": "b0f58349-21e8-4b57-a412-98b20fec9fb1",
+    "Title": "דירה להשכרה 72",
+    "Description": "1 חדרים בעיר כלשהי",
+    "CreatedBy": "123456789",
+    "Location": {
+      "Lat": 32.3258,
+      "Lng": 34.9373
+    },
+    "CreatedAt": "2025-08-27T06:00:00Z",
+    "UpdatedAt": null
+  },
+  {
+    "Id": "d53cf32c-48bd-4f7f-bd36-af419f63b873",
+    "Title": "דירה להשכרה 73",
+    "Description": "2 חדרים בעיר כלשהי",
+    "CreatedBy": "123456789",
+    "Location": {
+      "Lat": 31.5467,
+      "Lng": 36.3819
+    },
+    "CreatedAt": "2025-08-27T06:10:00Z",
+    "UpdatedAt": null
+  },
+  {
+    "Id": "e550165d-5eb6-4567-b0e0-788639ec7065",
+    "Title": "דירה להשכרה 74",
+    "Description": "3 חדרים בעיר כלשהי",
+    "CreatedBy": "123456789",
+    "Location": {
+      "Lat": 32.3161,
+      "Lng": 35.9221
+    },
+    "CreatedAt": "2025-08-27T06:20:00Z",
+    "UpdatedAt": null
+  },
+  {
+    "Id": "ea1fae6a-6b9a-4402-8f54-db38f4040b61",
+    "Title": "דירה להשכרה 75",
+    "Description": "4 חדרים בעיר כלשהי",
+    "CreatedBy": "123456789",
+    "Location": {
+      "Lat": 33.2574,
+      "Lng": 34.9893
+    },
+    "CreatedAt": "2025-08-27T06:30:00Z",
+    "UpdatedAt": null
+  },
+  {
+    "Id": "2ebed4ca-4640-45c8-bead-12bc5aff5b18",
+    "Title": "דירה להשכרה 76",
+    "Description": "5 חדרים בעיר כלשהי",
+    "CreatedBy": "123456789",
+    "Location": {
+      "Lat": 33.5316,
+      "Lng": 34.5408
+    },
+    "CreatedAt": "2025-08-27T06:40:00Z",
+    "UpdatedAt": null
+  },
+  {
+    "Id": "d92f9287-191e-494a-b1e9-5f88960979a6",
+    "Title": "דירה להשכרה 77",
+    "Description": "6 חדרים בעיר כלשהי",
+    "CreatedBy": "123456789",
+    "Location": {
+      "Lat": 32.9118,
+      "Lng": 34.574
+    },
+    "CreatedAt": "2025-08-27T06:50:00Z",
+    "UpdatedAt": null
+  },
+  {
+    "Id": "fb788b62-c025-4ab3-8486-dfa3570e187a",
+    "Title": "דירה להשכרה 78",
+    "Description": "1 חדרים בעיר כלשהי",
+    "CreatedBy": "123456789",
+    "Location": {
+      "Lat": 31.7051,
+      "Lng": 35.583
+    },
+    "CreatedAt": "2025-08-27T07:00:00Z",
+    "UpdatedAt": null
+  },
+  {
+    "Id": "e76cc716-b26e-45da-b049-4e4bea2d0026",
+    "Title": "דירה להשכרה 79",
+    "Description": "2 חדרים בעיר כלשהי",
+    "CreatedBy": "123456789",
+    "Location": {
+      "Lat": 33.8707,
+      "Lng": 35.1094
+    },
+    "CreatedAt": "2025-08-27T07:10:00Z",
+    "UpdatedAt": null
+  },
+  {
+    "Id": "d51480c7-dc32-4389-b328-c0f0b3c6b931",
+    "Title": "דירה להשכרה 80",
+    "Description": "3 חדרים בעיר כלשהי",
+    "CreatedBy": "123456789",
+    "Location": {
+      "Lat": 33.753,
+      "Lng": 35.8236
+    },
+    "CreatedAt": "2025-08-27T07:20:00Z",
+    "UpdatedAt": null
+  },
+  {
+    "Id": "c7e57665-52b6-4542-bbc0-4810ddb66ea9",
+    "Title": "דירה להשכרה 81",
+    "Description": "4 חדרים בעיר כלשהי",
+    "CreatedBy": "123456789",
+    "Location": {
+      "Lat": 31.9944,
+      "Lng": 35.2305
+    },
+    "CreatedAt": "2025-08-27T07:30:00Z",
+    "UpdatedAt": null
+  },
+  {
+    "Id": "1e4077c3-54c0-4bf0-9d25-f374d7a8066f",
+    "Title": "דירה להשכרה 82",
+    "Description": "5 חדרים בעיר כלשהי",
+    "CreatedBy": "123456789",
+    "Location": {
+      "Lat": 31.6217,
+      "Lng": 34.5908
+    },
+    "CreatedAt": "2025-08-27T07:40:00Z",
+    "UpdatedAt": null
+  },
+  {
+    "Id": "1db9e439-2cc7-43f6-acba-474890294cba",
+    "Title": "דירה להשכרה 83",
+    "Description": "6 חדרים בעיר כלשהי",
+    "CreatedBy": "123456789",
+    "Location": {
+      "Lat": 31.6055,
+      "Lng": 35.4072
+    },
+    "CreatedAt": "2025-08-27T07:50:00Z",
+    "UpdatedAt": null
+  },
+  {
+    "Id": "7837ed07-2445-4632-b20d-2aa52291002e",
+    "Title": "דירה להשכרה 84",
+    "Description": "1 חדרים בעיר כלשהי",
+    "CreatedBy": "123456789",
+    "Location": {
+      "Lat": 32.5983,
+      "Lng": 35.1733
+    },
+    "CreatedAt": "2025-08-27T08:00:00Z",
+    "UpdatedAt": null
+  },
+  {
+    "Id": "898389b8-3437-42a4-8bf7-41412fd7e60a",
+    "Title": "דירה להשכרה 85",
+    "Description": "2 חדרים בעיר כלשהי",
+    "CreatedBy": "123456789",
+    "Location": {
+      "Lat": 31.5643,
+      "Lng": 35.7647
+    },
+    "CreatedAt": "2025-08-27T08:10:00Z",
+    "UpdatedAt": null
+  },
+  {
+    "Id": "e1725c45-1889-4453-86cc-30271c6958ac",
+    "Title": "דירה להשכרה 86",
+    "Description": "3 חדרים בעיר כלשהי",
+    "CreatedBy": "123456789",
+    "Location": {
+      "Lat": 32.8558,
+      "Lng": 36.7714
+    },
+    "CreatedAt": "2025-08-27T08:20:00Z",
+    "UpdatedAt": null
+  },
+  {
+    "Id": "19c51763-5e5f-4eb5-8a48-ac244ffe3260",
+    "Title": "דירה להשכרה 87",
+    "Description": "4 חדרים בעיר כלשהי",
+    "CreatedBy": "123456789",
+    "Location": {
+      "Lat": 32.4892,
+      "Lng": 35.1219
+    },
+    "CreatedAt": "2025-08-27T08:30:00Z",
+    "UpdatedAt": null
+  },
+  {
+    "Id": "7b366ee7-abad-4a21-9e6d-b4c87ffdd62e",
+    "Title": "דירה להשכרה 88",
+    "Description": "5 חדרים בעיר כלשהי",
+    "CreatedBy": "123456789",
+    "Location": {
+      "Lat": 33.7383,
+      "Lng": 35.1045
+    },
+    "CreatedAt": "2025-08-27T08:40:00Z",
+    "UpdatedAt": null
+  },
+  {
+    "Id": "166d02d3-463a-4ca8-9b37-29957a850f3a",
+    "Title": "דירה להשכרה 89",
+    "Description": "6 חדרים בעיר כלשהי",
+    "CreatedBy": "123456789",
+    "Location": {
+      "Lat": 33.3357,
+      "Lng": 35.979
+    },
+    "CreatedAt": "2025-08-27T08:50:00Z",
+    "UpdatedAt": null
+  },
+  {
+    "Id": "e1180e26-63de-4d1a-8c46-a268ba3ab27d",
+    "Title": "דירה להשכרה 90",
+    "Description": "1 חדרים בעיר כלשהי",
+    "CreatedBy": "123456789",
+    "Location": {
+      "Lat": 33.4425,
+      "Lng": 36.2059
+    },
+    "CreatedAt": "2025-08-27T09:00:00Z",
+    "UpdatedAt": null
+  },
+  {
+    "Id": "f424a84d-eb51-4f87-90af-bf5d4d5e8240",
+    "Title": "דירה להשכרה 91",
+    "Description": "2 חדרים בעיר כלשהי",
+    "CreatedBy": "123456789",
+    "Location": {
+      "Lat": 32.3823,
+      "Lng": 36.7742
+    },
+    "CreatedAt": "2025-08-27T09:10:00Z",
+    "UpdatedAt": null
+  },
+  {
+    "Id": "b612316f-baad-4ec8-96b8-fc5c4d931e19",
+    "Title": "דירה להשכרה 92",
+    "Description": "3 חדרים בעיר כלשהי",
+    "CreatedBy": "123456789",
+    "Location": {
+      "Lat": 33.1874,
+      "Lng": 36.907
+    },
+    "CreatedAt": "2025-08-27T09:20:00Z",
+    "UpdatedAt": null
+  },
+  {
+    "Id": "218b8faf-687a-4bf8-a149-acdede3b0a39",
+    "Title": "דירה להשכרה 93",
+    "Description": "4 חדרים בעיר כלשהי",
+    "CreatedBy": "123456789",
+    "Location": {
+      "Lat": 33.9903,
+      "Lng": 35.8295
+    },
+    "CreatedAt": "2025-08-27T09:30:00Z",
+    "UpdatedAt": null
+  },
+  {
+    "Id": "0367c0a5-096e-4bf2-ae4e-9c1bba80ac4f",
+    "Title": "דירה להשכרה 94",
+    "Description": "5 חדרים בעיר כלשהי",
+    "CreatedBy": "123456789",
+    "Location": {
+      "Lat": 32.9729,
+      "Lng": 34.6712
+    },
+    "CreatedAt": "2025-08-27T09:40:00Z",
+    "UpdatedAt": null
+  },
+  {
+    "Id": "3d7680ac-d10d-4b70-81b7-4bdb42d6645e",
+    "Title": "דירה להשכרה 95",
+    "Description": "6 חדרים בעיר כלשהי",
+    "CreatedBy": "123456789",
+    "Location": {
+      "Lat": 33.705,
+      "Lng": 36.6571
+    },
+    "CreatedAt": "2025-08-27T09:50:00Z",
+    "UpdatedAt": null
+  },
+  {
+    "Id": "72768e86-4f64-4780-83c3-096c54fe0ae7",
+    "Title": "דירה להשכרה 96",
+    "Description": "1 חדרים בעיר כלשהי",
+    "CreatedBy": "123456789",
+    "Location": {
+      "Lat": 32.3285,
+      "Lng": 36.3388
+    },
+    "CreatedAt": "2025-08-27T10:00:00Z",
+    "UpdatedAt": null
+  },
+  {
+    "Id": "0f170d68-7e73-4c66-9510-755cae1b5654",
+    "Title": "דירה להשכרה 97",
+    "Description": "2 חדרים בעיר כלשהי",
+    "CreatedBy": "123456789",
+    "Location": {
+      "Lat": 32.2307,
+      "Lng": 35.354
+    },
+    "CreatedAt": "2025-08-27T10:10:00Z",
+    "UpdatedAt": null
+  },
+  {
+    "Id": "2f1a0d56-ee86-4cc5-ad96-f36874e6d8b8",
+    "Title": "דירה להשכרה 98",
+    "Description": "3 חדרים בעיר כלשהי",
+    "CreatedBy": "123456789",
+    "Location": {
+      "Lat": 32.849,
+      "Lng": 36.7169
+    },
+    "CreatedAt": "2025-08-27T10:20:00Z",
+    "UpdatedAt": null
+  },
+  {
+    "Id": "6f74d98c-c538-451e-9bdd-e07cee37bd0b",
+    "Title": "דירה להשכרה 99",
+    "Description": "4 חדרים בעיר כלשהי",
+    "CreatedBy": "123456789",
+    "Location": {
+      "Lat": 31.7998,
+      "Lng": 36.1831
+    },
+    "CreatedAt": "2025-08-27T10:30:00Z",
+    "UpdatedAt": null
+  },
+  {
+    "Id": "0122844e-9d1e-4aed-8b4f-997c336517d5",
+    "Title": "דירה להשכרה 100",
+    "Description": "5 חדרים בעיר כלשהי",
+    "CreatedBy": "123456789",
+    "Location": {
+      "Lat": 33.303,
+      "Lng": 36.3753
+    },
+    "CreatedAt": "2025-08-27T10:40:00Z",
     "UpdatedAt": null
   }
 ]

@@ -13,10 +13,16 @@ public class AdsController : ControllerBase
     public AdsController(IAdService service) { _service = service; }
 
     [HttpGet]
-    public async Task<ActionResult<IEnumerable<Ad>>> Get([FromQuery] string? q, [FromQuery] double? lat, [FromQuery] double? lng, [FromQuery] double? radiusKm)
+    public async Task<ActionResult<IEnumerable<Ad>>> Get([FromQuery] string? q, [FromQuery] double? lat, [FromQuery] double? lng, [FromQuery] double? radiusKm, [FromQuery] int skip = 0, [FromQuery] int take = 20)
     {
         var ads = await _service.GetAllAsync(q, lat, lng, radiusKm);
-        return Ok(ads);
+
+        // כאן החיתוך של paging
+        var paged = ads
+            .Skip(skip)
+            .Take(take);
+
+        return Ok(paged);
     }
 
     [HttpGet("{id:guid}")]
